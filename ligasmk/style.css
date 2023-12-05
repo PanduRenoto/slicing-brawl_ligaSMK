@@ -1,0 +1,313 @@
+body {
+    height: 100vh;
+    background: #f0f2ff;
+    margin: 0;
+    font-family: 'DM sans', sans-serif;
+}
+
+/* Header */
+
+.head {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    position: fixed;
+    z-index: 999;
+}
+
+.isi-head {
+    margin: 12.5px 250px;
+}
+
+.logo-liga-smk {
+    width: 90px;
+    height: 26px;
+    background-image: url(img/logo-ligasmk-dark.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.kanan-head {
+    display: flex;
+    float: right;
+    font-weight: 700;
+    font-size: 13px;
+    margin: 2px 0;
+}
+
+.kanan-head select {
+    margin: 0 15px;
+    text-decoration: none;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.home {
+    color: #452dad;
+}
+
+.kontak {
+    margin: 1.5px 15px;
+}
+
+/* /Header */
+
+.content {
+    position: absolute;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.kiri {
+    margin: 100px 250px 200px 250px;
+}
+
+.text-1 {
+    width: 450px;
+}
+
+.besar {
+    color: #111;
+    font-size: 60px;
+    margin: 75px 0;
+    font-weight: 700;
+}
+
+.kecil {
+    margin-top: -40px;
+    color: #666;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 25px;
+}
+
+.tombol {
+    background: #3b10e4;
+    border-radius: 5px;
+    width: 140px;
+    color: #fff;
+    font-size: 10px;
+    padding: 12.5px 15px 12.5px 20px;
+    margin: 40px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: 700;
+}
+
+.kanan {
+    float: right;
+    margin: -710px 250px 0 0;
+}
+
+.kanan img {
+    height: 570px;
+}
+
+.kuning {
+    width: 100%;
+    height: 120px;
+    background: #facc3b;
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.karir, .materi, .skill {
+    margin: 25px 50px;
+    line-height: 0;
+}
+
+p {
+    font-size: 10px;
+}
+
+.pembelajaran {
+    margin: 0 250px;
+}
+
+.mapel {
+    float: right;
+    display: flex;
+}
+
+.js, .python, .web, .art, .bisnis {
+    margin: -42.5px 0;
+    font-size: 11px;
+}
+
+.python, .web, .art, .bisnis {
+    background:#f0f2ff;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #c7c7c7;
+    font-weight: 700;
+}
+
+.js {
+    background:#fff;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #161616;
+    font-weight: 700;
+}
+
+.card {
+    float: left;
+    margin: 25px 20px 10px 0;
+    width: 234px;
+    height: 290px;
+    background: #fff;
+}
+
+.card .gambar img {
+    width: 234px;
+}
+
+.text-2 {
+    margin: 15px;
+}
+
+.alen {
+    font-size: 10px;
+    color: #3e2a9d;
+    font-weight: 700;
+}
+
+.why {
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.bawah {
+    display: flex;
+    font-size: 10px;
+    margin: 15px 0 0 0;
+    font-weight: 700;
+}
+
+.beg {
+    margin: 0 15px 0 0;
+}
+
+.member {
+    background: #fef0e5;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin: 710px 0 0 0;
+}
+
+.member .mem-ship {
+    margin: 37.5px 250px;
+    width: 125px;
+    height: 125px;
+}
+
+.caption {
+    width: 400px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    margin: 50px -150px;
+}
+
+.tombol-member {
+    background: #3b10e4;
+    border-radius: 5px;
+    width: 140px;
+    height: 12.5px;
+    color: #fff;
+    font-size: 10px;
+    padding: 12.5px 15px 12.5px 20px;
+    margin: 40px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: 700;
+    margin: 75px 0 75px 280px;
+}
+
+.kat-content {
+    margin: 0 250px;
+}
+
+.kat h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.kartu {
+    float: left;
+    width: 234px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    margin: 25px 20px 10px 0;
+}
+
+.bingkai {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.bingkai img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-kat {
+    width: 30px;
+    height: 30px;
+    background: #edf3ff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin: 15px 10px;
+}
+
+.capt {
+    display: block;
+    margin: 15px 20px;
+}
+
+.judul-kat {
+    font-weight: 700;
+    margin: 5px 0;
+    line-height: 10px;
+}
+
+.kelas-kat {
+    font-size: 10px;
+}
+
+.bawah-kat {
+    color: #3f1fc0;
+    width: 100%;
+    margin: 250px 0 0 0;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
